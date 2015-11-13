@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ohkristen/TeamA/issues"
   },
-  "homepage": "https://github.com/ohkristen/TeamA#readme"
+  "homepage": "https://github.com/ohkristen/TeamA#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
