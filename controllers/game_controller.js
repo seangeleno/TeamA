@@ -63,7 +63,7 @@ function update(req, res){
 function destroy(req, res){
 	// delete a single game -- destroy
 	Game.remove({
-		_id: req.params.game_id
+		_id: req.params.game.title
 	}, function(err, game){
 		if(err) res.send(err)
 		res.json({success: true, message: "GAME CALLED " + game.title +  " HAS BEEN ANNIHILATED!"})
