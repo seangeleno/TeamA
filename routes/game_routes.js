@@ -9,7 +9,7 @@ gameRoutes.route('/')
   .post(gamesController.create)
 
 //set routes for /games/:title
-gameRoutes.route(/:title)
+gameRoutes.route('/:title')
   .get(gamesController.show)
   .patch(gamesController.update)
   .delete(gamesController.destroy)
